@@ -65,6 +65,7 @@ void AActorWebSocket::OnMessage(const FString& Message)
 {
 	UE_LOG(LogTemp,Warning,TEXT("%s Message:%s"),*FString(__FUNCTION__),*Message);
 
+	UE_LOG(LogTemp,Warning,TEXT("%s"),*Message);
 	JsonParse(Message);
 }
 

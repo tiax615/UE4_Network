@@ -17,7 +17,7 @@ public:
 	// Sets default values for this actor's properties
 	AActorWebSocket();
 
-	const FString ServerURL="ws://127.0.0.1:23333";
+	const FString ServerURL="ws://192.168.100.101:8887";
 	const FString ServerProtocol="ws";
 
 	TSharedPtr<IWebSocket> Socket=nullptr;
